@@ -7,6 +7,12 @@
 
 Team project at ESILV (May 2026). In the school arena, our Monte Carlo engine **won 97 of 100 games** against the arena AI at the `MEDIUM_1` level.
 
+<p align="center">
+  <img src="docs/board.png" alt="Final position of a real game: the Monte Carlo engine (X) wins against Minimax (O) with three small boards in a row" width="520">
+</p>
+
+<sub>Final position of game 1 of `./build/uttt_match --a montecarlo --b minimax --games 2 --sims 2600 --depth 6 --seed 1 --opening 2 --verbose`: X (Monte Carlo) wins the diagonal of small boards. Blue and orange tints mark the small boards won by X and O; the faint cross and circle are drawn over them.</sub>
+
 ## The game
 
 - The board is a 3x3 grid of small tic-tac-toe boards (81 cells). Win a small board with three in a row; win the game with three small boards in a row.
