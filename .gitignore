@@ -1,0 +1,28 @@
+# Build outputs
+build/
+cmake-build-*/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+
+# IDE files (the original project used Code::Blocks)
+*.cbp
+*.layout
+*.depend
+.vs/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
